@@ -31,17 +31,44 @@
 # سه متن دریافت شده را به هم بچسبانید و نمایش دهید
 # print("2" + "4")
 
+# m1 = input("enter message 1: ")
+# m2 = input("enter message 2: ")
+# m3 = input("enter message 3: ")
+# print("first char of message 1 is: ", m1[0])
+# print("first char of message 2 is: ", m2[0])
+# print("first char of message 3 is: ", m3[0])
 
-name = input("enter a name: ")
-family = input("enter a family: ")
-message = "Hello " + name + " " + family
-print(message)
-message = f"Hello {name} {family}"
-print(message)
-
-
+# print(m1 + " " + m2 + " " + m3)
+# print(f"{m1} {m2} {m3}")
+# name = input("enter a name: ")
+# family = input("enter a family: ")
+# message = "Hello " + name + " " + family
+# print(message)
+# message = f"Hello {name} {family}"
+# print(message)
 # تمرین 
 # برنامه ای بنویسید که دو عدد از ورودی دریافت نماید و محاسبات ریاضی را به صورت زیر نمایش دهد
 # 1 + 1 = 2
 # 2 + 2 = 4
 # 4 + 4 = 8
+# x = int(input("enter a number: "))
+# y = int(input("enter a number: "))
+# print(f"{x} + {y} = {x + y}")
+# name = input("enter a name: ")
+# score1 = float(input("enter a score: "))
+# score2 = float(input("enter a score: "))
+# score3 = float(input("enter a score: "))
+# total = score1 + score2 + score3
+# ave = total / 3
+# print(f"{name}'s total score is: {total}")
+# print(f"{name}'s average is: {ave}")
+
+# name1 = input("enter a name: ")
+# name2 = input("enter a name: ")
+# name3 = input("enter a name: ")
+# name4 = input("enter a name: ")
+# name5 = input("enter a name: ")
+# print(name1, name5)
+
+name = input("enter your name: ")
+print(name[3], name[2], name[1], name[0])
